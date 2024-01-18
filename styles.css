@@ -12,18 +12,19 @@
     --sharp: 0;
     --soft: 10px;
     --round: 100px;
-    
+
     --image: var(--soft);
-    
+
     --background: #f5f5f5;
     --text: #222222;
-    
+
     --light: var(--background);
     --dark: var(--text);
 }
 
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 10px;
     background: var(--background);
@@ -47,9 +48,9 @@ input {
     width: 160px;
     box-sizing: border-box;
     padding: 4px 8px;
-    border-width: 1px; 
+    border-width: 1px;
     border-style: solid;
-    border-color:  var(--text);
+    border-color: var(--text);
     color: var(--text);
     background: none;
     border-radius: var(--image);
